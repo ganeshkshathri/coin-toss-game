@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.background-div {
+    background-image: linear-gradient(to left, #e2a139, #f9d423);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    text-align: center;
+    background-color: #ffffff;
+    height: 70vh;
+    width: 50vw;
+    border-radius: 8px;
+  }
+  .heading {
+    color: #a35200;
+  }
+  .choice {
+    color: #334155;
+    font-weight: bold;
+  }
+  .img-size {
+    height: 150px;
+  }
+  .but {
+    background-color: #f9d423;
+    color: #a35200;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .score {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
